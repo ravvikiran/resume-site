@@ -31,9 +31,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
+              "src/scss/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+                "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -94,9 +97,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
+              "src/scss/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+                "node_modules/jquery/dist/jquery.min.js"
+            ]
           }
         },
         "lint": {
@@ -127,5 +133,8 @@
       }
     }
   },
-  "defaultProject": "resume-site"
+  "defaultProject": "resume-site",
+  "cli": {
+    "analytics": "a55e92bb-99d9-4ddc-aff0-5ee7c936c444"
+  }
 }
